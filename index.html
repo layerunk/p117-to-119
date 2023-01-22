@@ -36,9 +36,18 @@
     <div id = "divtitle">
     <h1 id = "zeTitle">Doodle It Out</h1>
     </div>
-    <br><br>
+    <br>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
 
     <div id = "specialEffectsDiv">
+      <span id = "asd"><h3>What ye have to draw: </h3><h3 id = "drawname"></h3></span>
+      <br><br>
+      <span id="timer12"><h3>Timer: </h3><h3 id = "timer"></h3></span>
+      <span id="score12"><h3>Score: </h3><h3 id = "score"></h3></span>
+
       <span><h2 id="nalabel">Label:</h2> <h2 id="name"></h2></span>
       <span><h2 id="colabel">Confidence:</h2> <h2 id="confidence"></h2></span>
     </div>
@@ -49,7 +58,7 @@
     <br><br>
 
     <button id = "showmezesketch" class = "btn btn-danger btn-lg" data-toggle="modal"  data-target="#zeModal">Show Ze Canvas</button>
-    <button id = "clearzecanvas" class = "btn btn-danger btn-lg"onclick="clearCanvas()">Clear Ze Canvas</button>
+    <button id = "clearzecanvas" class = "btn btn-danger btn-lg" onclick="updateCanvas()">Clear Ze Canvas</button>
 
     <br><br><br><br><br><br><br>
   </center>

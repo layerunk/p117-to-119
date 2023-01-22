@@ -1,5 +1,6 @@
 body{
     background-color: lightblue;
+    color: aliceblue;
 }
 
 #specialEffectsDiv{
@@ -29,6 +30,32 @@ body{
 #showmezesketch , #clearzecanvas, #doodleIns, #nalabel, #colabel, #zeTitle{
     font-family: 'Chilanka', cursive;
 }
+#nalabel{
+    margin-right:30px;
+}
 #divtitle{
     border-width: 12px groove black;
+}
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px red;}
+  to {box-shadow: 1px 1px 38px green;}
+
+}
+
+#timer12{
+    float:left;
+    margin-left: 30px;
+}
+#score12{
+    float:right;
+    margin-right: 140px;
 }
